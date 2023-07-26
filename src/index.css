@@ -21,6 +21,7 @@ body {
   justify-content: center;
   min-width: 320px;
   min-height: 100vh;
+  overflow: hidden;
 }
 
 * {
@@ -89,7 +90,7 @@ body {
 .winner {
   position: absolute;
   width: 100vw;
-  height: 100vh;
+  height: 110vh;
   top: 0;
   left: 0;
   display: grid;
@@ -128,4 +129,13 @@ body {
   place-items: center;
   cursor: pointer;
   font-size: 48px;
+}
+
+.winner .remove{
+  border-radius: 50%;
+  width: auto;
+  opacity: 0.5;
+  position: absolute;
+  top: 50px;
+  left: 30%;
 }
