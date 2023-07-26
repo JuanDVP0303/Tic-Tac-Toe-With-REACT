@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react-swc'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/Tic-Tac-Toe-With-REACT/"
+  base: "https://JuanDVP0303.github.io/Tic-Tac-Toe-With-REACT/"
 })
