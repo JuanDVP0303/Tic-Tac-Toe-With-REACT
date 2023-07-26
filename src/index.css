@@ -109,6 +109,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 20px;
+  position: relative;
 }
 
 .winner .win {
@@ -118,6 +119,7 @@ body {
   border-radius: 10px;
   display: flex;
   gap: 15px;
+
 }
 
 .square {
@@ -136,6 +138,8 @@ body {
   width: auto;
   opacity: 0.5;
   position: absolute;
-  top: 50px;
-  left: 30%;
+  top:0px;
+  margin:10px;
+  left: 0px;
+  
 }

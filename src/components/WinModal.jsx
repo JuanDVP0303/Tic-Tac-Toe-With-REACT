@@ -13,8 +13,8 @@ export function WinModal({ winner, resetGame }) {
 
   return (
     <section id="winner-section" className="winner">
-      <button className="remove" onClick={removeSection}>X</button>
       <div className="text">
+      <button className="remove" onClick={removeSection}>X</button>
         <h2>{winText}</h2>
 
         <header className="win">{result}</header>
